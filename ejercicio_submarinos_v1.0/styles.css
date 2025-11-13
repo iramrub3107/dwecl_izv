@@ -1,0 +1,22 @@
+#tablero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+
+    width: 5rem;
+    height: 5rem;
+}
+
+.casilla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    background-color: lightblue;
+    padding: 25px;
+}
+
+#gameStatus {
+    margin-top: 250px;
+}

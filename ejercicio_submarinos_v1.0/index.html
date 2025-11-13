@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Submarinos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>El juego del submarino</h1>
+    <p>
+        Haz clic en la casilla en donde se sitúa el submarino para ganar.
+        Ten en cuenta que, cada vez que falles, el submarino se desplazará una casilla a cualquier dirección.
+    </p>
+    
+    <div id="tablero">
+        <template id="template-tablero">
+            <div class="casilla"></div>
+        </template>
+    </div>
+
+    <p id="gameStatus"></p>
+
+    <script src="js/codigo.js" type="module"></script>
+</body>
+</html>
